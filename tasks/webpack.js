@@ -21,10 +21,13 @@ module.exports = function gruntWebpackTask(grunt) {
     var target = this.target;
 
     targetDoneCallbacks[target] = this.async();
-    targetCompilers[target] = targetCompilers[target] || configureAndRunCompiler({
-      name: this.name,
-      target: target,
-    });
+
+    if (!targetCompilers.hasOwnProperty(target)) {
+      targetCompilers[target] = configureAndRunCompiler({
+        name: this.name,
+        target: target,
+      });
+    }
   });
 
   function configureAndRunCompiler(scope) {
@@ -71,7 +74,7 @@ module.exports = function gruntWebpackTask(grunt) {
     if (watch) {
       // watchDelay and 0 are for backwards compatibility with webpack <= 1.9.0
       // remove with next major and bump to v1.9.1 / v2
-      compiler.watch(options.watchOptions || options.watchDelay || 0, onCompletedCallback);
+      compiler.watch(options[0].watchOptions || options[0].watchDelay || 0, onCompletedCallback);
     } else {
       compiler.run(onCompletedCallback);
     }
