@@ -2,3 +2,5 @@ node_modules
 npm-debug.log
 tests/fixtures/**/actual/common.js
 tests/fixtures/**/expected/common.js
+.nyc_output
+coverage
