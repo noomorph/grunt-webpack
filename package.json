@@ -1,7 +1,7 @@
 {
   "name": "grunt-webpack-zombie-edition",
   "description": "fork of grunt-webpack for 1.x that strives to keep everything cached and in memory",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "homepage": "https://github.com/noomorph/grunt-webpack-zombie-edition",
   "author": {
     "name": "Yaroslav Serhieiev <noomorph@gmail.com>"
