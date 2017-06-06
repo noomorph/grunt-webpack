@@ -1,4 +1,4 @@
-# grunt-webpack [![Build Status](https://travis-ci.org/webpack/grunt-webpack.svg?branch=master)](https://travis-ci.org/webpack/grunt-webpack)
+# grunt-webpack-zombie-edition [![Build Status](https://travis-ci.org/noomorph/grunt-webpack-zombie-edition.svg?branch=master)](https://travis-ci.org/noomorph/grunt-webpack-zombie-edition)
 
 Use [webpack](https://github.com/webpack/webpack) with grunt.
 
@@ -72,5 +72,7 @@ webpack: {
 `grunt-webpack` uses the [webpack options](http://webpack.github.io/docs/configuration.html).
 
 ## License
-Copyright (c) 2012-2016 Tobias Koppers @sokra
+Copyright (c) 2012-2017 Tobias Koppers @sokra
+Copyright (c) 2017- Yaroslav Serhieiev @noomorph
+
 Licensed under the MIT license.

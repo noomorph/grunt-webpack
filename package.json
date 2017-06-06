@@ -1,17 +1,17 @@
 {
-  "name": "grunt-webpack",
-  "description": "Use webpack with grunt.",
-  "version": "1.2.0",
-  "homepage": "https://github.com/webpack/grunt-webpack",
+  "name": "grunt-webpack-zombie-edition",
+  "description": "fork of grunt-webpack for 1.x that strives to keep everything cached and in memory",
+  "version": "1.1.0",
+  "homepage": "https://github.com/noomorph/grunt-webpack-zombie-edition",
   "author": {
-    "name": "Tobias Koppers @sokra"
+    "name": "Yaroslav Serhieiev <noomorph@gmail.com>"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:webpack/grunt-webpack.git"
+    "url": "git@github.com:noomorph/grunt-webpack-zombie-edition.git"
   },
   "bugs": {
-    "url": "https://github.com/webpack/grunt-webpack/issues"
+    "url": "https://github.com/noomorph/grunt-webpack-zombie-edition/issues"
   },
   "dependencies": {
     "lodash": "^4.7.0"
@@ -22,7 +22,9 @@
   },
   "license": "MIT",
   "keywords": [
-    "gruntplugin"
+    "gruntplugin",
+    "webpack",
+    "grunt"
   ],
   "scripts": {
     "check": "npm run lint && npm test",
