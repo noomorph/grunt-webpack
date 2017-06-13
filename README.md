@@ -1,8 +1,14 @@
-# grunt-webpack-zombie-edition [![Build Status](https://travis-ci.org/noomorph/grunt-webpack-zombie-edition.svg?branch=master)](https://travis-ci.org/noomorph/grunt-webpack-zombie-edition)
+# grunt-webpack-zombie-edition
+[![Build Status](https://travis-ci.org/noomorph/grunt-webpack-zombie-edition.svg?branch=master)](https://travis-ci.org/noomorph/grunt-webpack-zombie-edition)
+[![View this project on NPM](https://img.shields.io/npm/v/grunt-webpack-zombie-edition.svg)](https://npmjs.org/package/grunt-webpack-zombie-edition)
+[![View this project on NPM](https://img.shields.io/npm/dm/grunt-webpack-zombie-edition.svg)](https://npmjs.org/package/grunt-webpack-zombie-edition)
 
-Use [webpack](https://github.com/webpack/webpack) with grunt.
+This a fork of [1.0 branch of grunt-webpack](https://github.com/webpack-contrib/grunt-webpack/tree/1.0).
+
+The main difference here is that I try to keep everything I can alive between task runs. On one of my projects I achieved 2s time gain (4s vs 6s).
 
 ## Getting Started
+
 Install this grunt plugin next to your project's [Gruntfile.js](http://gruntjs.com/getting-started) with: `npm install grunt-webpack --save-dev`
 
 Then add this line to your project's `Gruntfile.js` gruntfile:
